@@ -7,9 +7,11 @@
     <title>Paolo Rabbito</title>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <input type="checkbox" name="" id="check">
+    <input type="checkbox" name="" id="mobile_check">
     <header>
         <label for="check">
             <i class="fas fa-bars" id="sidebar_btn"></i>
@@ -22,11 +24,29 @@
         </div>
     </header>
 
+    <div class="mobile_nav">
+        <div class="nav_bar">
+            <img src="./images/photo_2021-11-02_16-32-57.jpg" alt="prifile picture" class="mobile_profile_image">
+            <label for="mobile_check">
+                <i class="fas fa-bars" id="navbar_btn"></i> 
+            </label>
+        </div>
+
+        <div class="mobile_nav_items">
+            <a href="#"><i class="far fa-address-card"></i><span>About</span></a>
+            <a href="#"><i class="fas fa-university"></i><span>Education</span></a>
+            <a href="#"><i class="fas fa-code"></i><span>Skills</span></a>
+            <a href="#"><i class="fas fa-chart-line"></i><span>Experience</span></a>
+            <a href="#"><i class="fas fa-music"></i><span>Hobbies</span></a>
+            <a href="#"><i class="far fa-address-book"></i><span>Contacts</span></a>
+        </div>
+    </div>
+
     <div class="sidebar">
-        <center>
+        <div class="profile_info">
             <img src="./images/photo_2021-11-02_16-32-57.jpg" alt="prifile picture" class="profile_image">
             <h4>Paolo</h4>
-        </center>
+        </div>
         <a href="#"><i class="far fa-address-card"></i><span>About</span></a>
         <a href="#"><i class="fas fa-university"></i><span>Education</span></a>
         <a href="#"><i class="fas fa-code"></i><span>Skills</span></a>
@@ -38,5 +58,12 @@
     <div class="content">
 
     </div>
+    <script>
+        $(document).ready(function(){
+            $('#navbar_btn').click(function(){
+                $('.mobile_nav_items').toggleClass('active');
+            });
+        });
+    </script>
 </body>
 </html>
