@@ -162,7 +162,7 @@ const workExperiences = {
       companylogo: require("./assets/images/claranet.jpeg"),
       date: "July 2023 – Present",
       descBullets: [
-        "Serverless apllication with AWS and Typescript",
+        "Serverless application with AWS and Typescript",
         "Backend in PHP with Symfony",
         "Backend in PHP with Laminas with international team"
       ]
@@ -173,7 +173,7 @@ const workExperiences = {
       companylogo: require("./assets/images/flowing.jpeg"),
       date: "Oct 2022 – June 2023",
       descBullets: [
-        "Serverless apllication with AWS and Typescript",
+        "Serverless application with AWS and Typescript",
         "Backend in PHP with Symfony",
         "Backend in PHP with Laminas with international team"
       ]
