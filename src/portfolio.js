@@ -277,6 +277,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "AppSec for Developers",
+      subtitle:
+        "Showcases knowledge and understanding of how to find and fix vulnerabilities in code, enhance the security culture within their dev team, and apply DevSecOps thinking day to day.",
+      image: require("./assets/images/appsec-for-developers.png"),
+      imageAlt: "AppSec Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/7b923c9f-9f2b-4854-bd27-1e8eb568b432/public_url"
+        }
+      ]
+    },
+    {
       title: "AWS Certified Developer - Associate",
       subtitle:
         "Showcases knowledge and understanding of core AWS services, uses, and basic AWS architecture best practices, and proficiency in developing, deploying, and debugging cloud-based applications by using AWS",
