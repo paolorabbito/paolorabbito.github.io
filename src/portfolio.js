@@ -303,6 +303,19 @@ const achievementSection = {
       ]
     },
     {
+      title: "Microsoft Azure Fundamentals",
+      subtitle:
+        "Showcases knowledge and understanding of basic services and best practices using Microsoft Azure Platform", 
+      image: require("./assets/images/microsoft-certified-fundamentals-badge.png"),
+      imageAlt: "AZ-900 Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://learn.microsoft.com/it-it/users/paolorabbito-0389/credentials/aae75adcce73cb56"
+        }
+      ]
+    },
+    {
       title: "ECDL",
       subtitle:
         "AICA - Associazione Italiana per l'Informatica e il Calcolo Automatico",
