@@ -192,7 +192,7 @@ const workExperiences = {
     {
       role: "Freelance Software Engineer",
       company: "Freelance",
-      companylogo: require("./assets/images/freelance.png"),
+      companylogo: require("./assets/images/logo.png"),
       date: "Sep 2020 - Present",
       descBullets: [
         "Lowcode tool such as Zucchetti's Sitepainter and bug fixing on legacy code",
