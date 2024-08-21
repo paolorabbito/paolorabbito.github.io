@@ -188,6 +188,17 @@ const workExperiences = {
         "Refactoring legacy code to improving performance",
         "Blockchain research for Bachelor thesis"
       ]
+    },
+    {
+      role: "Freelance Software Engineer",
+      company: "Freelance",
+      companylogo: require("./assets/images/freelance.png"),
+      date: "Sep 2020 - Present",
+      descBullets: [
+        "Lowcode tool such as Zucchetti's Sitepainter and bug fixing on legacy code",
+        "Development and deployment of ecommerce software",
+        "Developed static portfolio site for some professioals"
+      ]
     }
   ]
 };
